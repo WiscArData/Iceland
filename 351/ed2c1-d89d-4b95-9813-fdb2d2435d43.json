@@ -1,0 +1,113 @@
+{
+    "acquisition_software": "pychron 20.1.1",
+    "aliquot": 2,
+    "analysis_type": "unknown",
+    "analyst_name": "root",
+    "arar_mapping": {
+        "Ar36": "Ar36",
+        "Ar37": "Ar37",
+        "Ar38": "Ar38",
+        "Ar39": "Ar39",
+        "Ar40": "Ar40"
+    },
+    "collection_version": "1.0:2.1",
+    "comment": "",
+    "commit": "efb39c1bba48d952458b6f91524aec520a88d442",
+    "conditionals": null,
+    "data_reduction_software": "pychron 20.1.1",
+    "detectors": {
+        "Ax": {
+            "deflection": null,
+            "gain": null
+        },
+        "H2": {
+            "deflection": null,
+            "gain": null
+        },
+        "H4": {
+            "deflection": null,
+            "gain": null
+        },
+        "L2": {
+            "deflection": null,
+            "gain": null
+        },
+        "L4": {
+            "deflection": null,
+            "gain": null
+        }
+    },
+    "environmental": {
+        "lab_humiditys": [],
+        "lab_pneumatics": [],
+        "lab_temperatures": []
+    },
+    "experiment_queue_name": "20240201a",
+    "experiment_type": "Ar/Ar",
+    "extraction": "ngx_CO2_eq12.py",
+    "grainsize": "180-250 um",
+    "hops": "",
+    "identifier": "UW167:A11",
+    "increment": 11,
+    "instrument_name": "",
+    "intensity_scalar": 0.0,
+    "irradiation": "UW167",
+    "irradiation_level": "A",
+    "irradiation_position": 11,
+    "isotopes": {
+        "Ar36": {
+            "detector": "L4",
+            "name": "Ar36",
+            "serial_id": "00000"
+        },
+        "Ar37": {
+            "detector": "L2",
+            "name": "Ar37",
+            "serial_id": "00000"
+        },
+        "Ar38": {
+            "detector": "Ax",
+            "name": "Ar38",
+            "serial_id": "00000"
+        },
+        "Ar39": {
+            "detector": "H2",
+            "name": "Ar39",
+            "serial_id": "00000"
+        },
+        "Ar40": {
+            "detector": "H4",
+            "name": "Ar40",
+            "serial_id": "00000"
+        }
+    },
+    "laboratory": "",
+    "latitude": 63.6599166,
+    "lithology": "",
+    "lithology_class": "",
+    "lithology_group": "",
+    "lithology_type": "",
+    "longitude": -19.42525,
+    "mass_spectrometer": "Ngx",
+    "material": "Groundmass",
+    "measurement": "ngx_unknown400_300_10_H4_L4_nocenter.py",
+    "post_equilibration": "ngx_pump_extraction_line.py",
+    "post_measurement": "ngx_pump_ms.py",
+    "principal_investigator": "Cole, R",
+    "project": "Iceland",
+    "queue_conditionals_name": "",
+    "repository_identifier": "Iceland",
+    "rlocation": "",
+    "sample": "MOR-36",
+    "source": {
+        "emission": 956.0,
+        "trap": 650.15729
+    },
+    "spec_sha": "23aeea083a3aae381788b647572440a5f181dc34",
+    "timestamp": "2024-02-02T09:36:50.054748",
+    "tripped_conditional": null,
+    "unit": "",
+    "username": "root",
+    "uuid": "351ed2c1-d89d-4b95-9813-fdb2d2435d43",
+    "whiff_result": null
+}
